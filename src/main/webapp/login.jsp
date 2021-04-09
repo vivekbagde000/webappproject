@@ -1,6 +1,6 @@
 <%@ page import="java.sql.*"%>
 <%
-    String userName = request.getParameter("userName");    
+    String userName = request.getParameter("username");    
     String password = request.getParameter("password");
     Class.forName("com.mysql.jdbc.Driver");
     Connection con = DriverManager.getConnection("jdbc:mysql://db:3306/account", "root", "root");
